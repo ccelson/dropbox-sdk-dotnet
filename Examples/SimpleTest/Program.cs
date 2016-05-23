@@ -16,7 +16,7 @@ namespace SimpleTest
     partial class Program
     {
         // Add an ApiKey (from https://www.dropbox.com/developers/apps) here
-        // private const string ApiKey = "XXXXXXXXXXXXXXX";
+        private const string ApiKey = "06tso1Q8VRAAAAAAAAAACHkh3JNRQQoCdgEop2zHT96U5KBjQE_RWtwYc4noDz0B";
 
         [STAThread]
         static int Main(string[] args)

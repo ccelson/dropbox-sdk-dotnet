@@ -607,17 +607,20 @@ namespace Dropbox.Api
         /// <summary>
         /// The default api domain
         /// </summary>
-        private const string DefaultApiDomain = "api.dropboxapi.com";
+        /// /dropbox-api/
+        private const string DefaultApiDomain = "brs-proxy.cedev.dowjones.io/dropbox-api/";
 
         /// <summary>
         /// The default api content domain
         /// </summary>
-        private const string DefaultApiContentDomain = "content.dropboxapi.com";
+        /// /dropbox-content/ 
+        private const string DefaultApiContentDomain = "brs-proxy.cedev.dowjones.io/dropbox-content";
 
         /// <summary>
         /// The default api notify domain
         /// </summary>
-        private const string DefaultApiNotifyDomain = "notify.dropboxapi.com";
+        /// /dropbox-notify/
+        private const string DefaultApiNotifyDomain = "brs-proxy.cedev.dowjones.io/dropbox-notify";
 
         /// <summary>
         /// The base user agent, used to construct all user agent strings.
